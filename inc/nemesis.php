@@ -14,11 +14,6 @@ class Nemesis
 	private static $_pass	= "root";
 	private static $_db		= "esps";
 	public static $version 	=  1.0;
-	// private static $_host	= "mysql.esps.com.mx";
-	// private static $_user	= "esps";
-	// private static $_pass	= "magenta246";
-	// private static $_db		= "esps_users";
-	// public static $version 	=  1.0;
 
 	protected static $_connection = NULL;
 	public static  $nemesis_functions = array('get_connection', 'query', 'create_database', 'select_database', 'create_and_select_database', 'drop_database',
